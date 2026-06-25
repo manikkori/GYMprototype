@@ -1,16 +1,38 @@
-# React + Vite
+# 🏋️‍♂️ PowerFit Gym - Premium Frontend Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A high-performance, ultra-responsive, frontend-only gym website built with **React (Vite)**. Designed for elite fitness centers to maximize conversions through direct WhatsApp integration and zero-backend email forms.
 
-Currently, two official plugins are available:
+![PowerFit Gym Preview](https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1000&auto=format&fit=crop)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
+*   **Aggressive Dark Theme:** Premium, high-contrast UI tailored for modern fitness brands.
+*   **Mobile-First Design:** 100% optimized for mobile screens where 90% of gym traffic originates.
+*   **GSAP & Framer Motion:** Buttery smooth scroll animations, parallax effects, and infinite marquees.
+*   **Zero Backend Required:** 
+    *   **Direct WhatsApp CTAs:** Turns visitors into leads instantly.
+    *   **Web3Forms Integration:** Fully functional contact form that sends emails directly to your inbox without a Node.js server.
+*   **Single Source of Truth:** All website data (trainers, plans, gallery, schedule) is centralized in one `gymData.js` file for effortless updates.
 
-## React Compiler
+## 🚀 Tech Stack
+*   **Framework:** React.js (via Vite for blazing-fast builds)
+*   **Styling:** Tailwind CSS
+*   **Animations:** GSAP (ScrollTrigger) & Framer Motion
+*   **Icons:** Lucide React & React Icons
+*   **Routing:** React Router DOM
+*   **Form Handling:** Web3Forms API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📁 Folder Structure
+```text
+powerfit-gym/
+├── public/
+├── src/
+│   ├── components/       # Reusable UI (Navbar, Footer, ScrollToTop)
+│   ├── pages/            # Main Views (Home, About, Plans, Schedule, etc.)
+│   ├── data/
+│   │   └── gymData.js    # ⚙️ MASTER DATA FILE (Edit site content here)
+│   ├── App.jsx           # Routing Logic
+│   ├── main.jsx          # Entry Point
+│   └── index.css         # Global Styles & Theme Configuration
+├── .env                  # API Keys & Contact Info
+├── tailwind.config.js    # Theme settings (Colors, Fonts)
+└── package.json
