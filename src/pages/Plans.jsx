@@ -11,6 +11,7 @@ const Plans = () => {
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     //mobile
     if (isMobile) {
+      alert(`IMPORTANT: After completing the ₹${price} payment, please send the success screenshot on our WhatsApp to activate your ${planName} Plan.`);
       const upiLink = `upi://pay?pa=${gymData.upiId}&pn=${encodeURIComponent(gymData.gymName)}&am=${price}&cu=INR&tn=${encodeURIComponent(`Payment for ${planName} Plan`)}`;
       window.location.href = upiLink;
     } else {
