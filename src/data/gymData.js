@@ -3,10 +3,10 @@ export const gymData = {
   whatsappNumber: import.meta.env.VITE_GYM_WHATSAPP,
   email: import.meta.env.VITE_GYM_EMAIL,
   address: import.meta.env.VITE_GYM_ADDRESS,
-  
+  upiId: "6395901152@pthdfc",
   mapEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.562064611221!2d77.22732107550005!3d28.6129120756749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2daa9eb4d0b%3A0x71797a133c1775f0!2sIndia%20Gate!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin",
-
+  
   plans: [
     {
       name: "BASIC ARSENAL",
