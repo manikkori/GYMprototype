@@ -10,8 +10,8 @@ export const gymData = {
   plans: [
     {
       name: "BASIC ARSENAL",
-      monthlyPrice: 1499,
-      yearlyPrice: 14990,
+      monthlyPrice: 1000,
+      yearlyPrice: 9600,
       features: [
         "Access to gym floor",
         "Standard locker access",
@@ -22,8 +22,8 @@ export const gymData = {
     },
     {
       name: "ELITE PACK",
-      monthlyPrice: 2499,
-      yearlyPrice: 23990,
+      monthlyPrice: 2000,
+      yearlyPrice: 19200,
       features: [
         "All Basic features",
         "Unlimited group classes",
@@ -34,8 +34,8 @@ export const gymData = {
     },
     {
       name: "VIP IRON",
-      monthlyPrice: 4499,
-      yearlyPrice: 42990,
+      monthlyPrice: 3000,
+      yearlyPrice: 28000,
       features: [
         "All Elite features",
         "Personalized diet & nutrition chart",
